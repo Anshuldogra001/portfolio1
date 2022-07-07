@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>My portfolio</title>
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
@@ -20,6 +20,7 @@
     <section id="Home">
       <div class="Main">
         <h1 class="heading">I AM,<br>Abhinav Dogra</h1>
+        <h4 class="sub-heading">A Data Analyst</h4>
         <button class="btn">HIRE ME</button>
 
       </div>
@@ -33,16 +34,15 @@
         <div id="intro" class="intro">
           <div class="box4">
 
-
           <h2><b><u><I>Abhinav Dogra</I></u></b></h2>
-          <p><br><h3 style="font-size:5vm"><I><b><center>In, today's world becoming a coder is easy but to<br>
-            create and run a new program is difficult because nowadays <br>
-             a new system and new codes are comming fastly which  <br>
-            increase the competition as when i am going to graduate <br>
-              with my degree 5 lakh more student with same degree are  <br>
-            going to graduate which will make the shortage of job but <br>
-              also give rise to new innovations.For me coding is a <br>
-              music consisting of the sound of keyboard and successful<br>
+          <p><br><h3 style="font-size:5vm; text-align: center"><I><b>In, today's world becoming a coder is easy but to<br>
+            create and run a new program is difficult because nowadays
+             a new system and new codes are comming fastly which  
+            increase the competition as when i am going to graduate 
+              with my degree 5 lakh more student with same degree are  
+            going to graduate which will make the shortage of job but 
+              also give rise to new innovations.For me coding is a
+              music consisting of the sound of keyboard and successful
               run of code.</b></I></h3></p>
           </div>
 
@@ -102,13 +102,30 @@
     </section>
 
     <section id="contact">
-      <h1 class="heading">CONTACT</h1>
-      <form class="form" action="">
-        <input type="text" name="name" class="input" placeholder="Enter your Name">
-        <input type="email" name="email" class="input" placeholder="Enter your Email">
-        <textarea name="msg" rows="10" id="msg" cols="30" placeholder="Enter your Messege"></textarea>
-        <input type="submit" id="send" value="CONTACT">
-      </form>
+      <h3>Contact Form</h3>
+
+      <div class="container">
+        <form action="/action_page.php">
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      
+          <label for="country">Country</label>
+          <select id="country" name="country">
+            <option value="India">India</option>
+            <option value="australia">Australia</option>
+            <option value="canada">Canada</option>
+            <option value="usa">USA</option>
+          </select>
+      
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      
+          <input type="submit" value="Submit">
+        </form>
+      </div>
 
     </section>
   </body>
