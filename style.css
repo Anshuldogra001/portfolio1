@@ -7,6 +7,14 @@ html{
   scroll-behavior: smooth;
 }
 
+body {font-family: Arial, Helvetica, sans-serif;}
+
+ .sub-heading{
+  font-family: cursive;
+  margin-bottom: 30px;
+  font-size: 1.5rem;
+}
+
 .navbar{
   display: flex;
   justify-content: center;
@@ -70,7 +78,7 @@ html{
   font-family: cursive;
   font-size: 5rem;
   text-align: center;
-  margin: 40px 0px;
+  margin: 30px 0px;
 }
 .btn{
   padding: 10px 50px;
@@ -97,7 +105,7 @@ html{
   padding: 20px;
   margin-top: 8px;
   margin-bottom: 1px;
-
+  height: 100vh;
   color:rgb(239,244,18);
   background: url('back6.png') no-repeat center center/cover;
 
@@ -119,7 +127,7 @@ html{
 }
 #intro h2{
   font-size: 3rem;
-  margin-bottom: : 20px;
+  margin-bottom:  20px;
 }
 /*portfolio*/
 #portfolio{
@@ -129,6 +137,7 @@ html{
   background-color: rgba(0, 0, 0, 0.9);
   align-items: center;
   padding: 20px;
+  height: 100vh;
 }
 .gallary{
   display: flex;
@@ -159,12 +168,13 @@ html{
 
 }
 
-}
+
 /*services*/
 #Services{
   display: flex;
   flex-direction: column;
   padding: 20px;
+  height: 100vh;
 
 }
 
@@ -267,11 +277,12 @@ html{
 }
 /*contact*/
 #contact{
+  height: 100vh;
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
-  background-color: rgba(0, 0, 0, 0.9);
-  color:white;
+  background-color: rgba(187, 184, 184, 0.9);
+  color:black;
   padding: 20px;
 }
 .form{
@@ -311,4 +322,45 @@ html{
   box-shadow: 0 0 10px white;
   border-radius: 15px;
 
+}
+
+
+/* contact form  */
+
+#contact h3{
+  font-size: 2rem;
+  margin-top: 50px;
+  padding: 5px;
+  align-self: center;
+  margin-bottom: 50px;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
 }
